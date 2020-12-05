@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./typings", "./node_modules/@types"]
+  },
+  "files": ["src/main.ts"],
+  "include": ["src/**/*", "typings/**/*"],
+  "exclude": ["node_modules", "typings"]
+}
